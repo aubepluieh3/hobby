@@ -65,7 +65,6 @@ const init = () => {
     const color = "#eeeeee";
     scene.fog = new THREE.Fog(color, near, far);
   }
-
   fbxLoadFunc("./model/standing.FBX", "mixamo.com", 2, 0, -20);
   fbxLoadFunc("./model/Swimming.FBX", "mixamo.com", 12, 0, -250);
   fbxLoadFunc("./model/Dribble.FBX", "mixamo.com", 12, 0, -400);
