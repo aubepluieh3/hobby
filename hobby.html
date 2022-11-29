@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SOO</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #canvasWrap {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      button {
+        position: fixed;
+        background-color: black;
+        z-index: 1000;
+        color: #fff;
+        padding: 15px 22px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 50px;
+        transition: all 0.2s ease-in-out;
+      }
+      button:hover {
+        background-color: #fff;
+        color: #000;
+      }
+      #prev {
+        top: 30px;
+        right: 110px;
+      }
+      #next {
+        top: 30px;
+        right: 30px;
+      }
+
+      #text {
+        position: absolute;
+        width: 500px;
+        margin: 100px 30px;
+        font-family: "Lobster", cursive;
+      }
+
+      #text div {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #title {
+        font-size: 50px;
+        font-weight: 700;
+      }
+      #content {
+        font-size: 30px;
+      }
+    </style>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./hobby.js" type="module" defer></script>
+  </head>
+  <body>
+    <div id="canvasWrap">
+      <button id="prev" type="button">prev</button>
+      <button id="next" type="button">next</button>
+
+      <div id="text">
+        <div>
+          <div id="title">Hi I'm SOO</div>
+          <div id="content">
+            I will introduce you to my hobbies to make me live forever!
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
