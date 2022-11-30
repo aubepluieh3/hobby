@@ -65,11 +65,11 @@ const init = () => {
     const color = "#eeeeee";
     scene.fog = new THREE.Fog(color, near, far);
   }
-  fbxLoadFunc("./model/standing.FBX", "mixamo.com", 2, 0, -20);
-  fbxLoadFunc("./model/Swimming.FBX", "mixamo.com", 12, 0, -250);
-  fbxLoadFunc("./model/Dribble.FBX", "mixamo.com", 12, 0, -400);
-  fbxLoadFunc("./model/Baseball Pitching.FBX", "mixamo.com", 12, 0, -580);
-  fbxLoadFunc("./model/Listening To Music.FBX", "mixamo.com", 12, 0, -750);
+  fbxLoadFunc("./model/standing.fbx", "mixamo.com", 2, 0, -20);
+  fbxLoadFunc("./model/Swimming.fbx", "mixamo.com", 12, 0, -250);
+  fbxLoadFunc("./model/Dribble.fbx", "mixamo.com", 12, 0, -400);
+  fbxLoadFunc("./model/Baseball Pitching.fbx", "mixamo.com", 12, 0, -580);
+  fbxLoadFunc("./model/Listening To Music.fbx", "mixamo.com", 12, 0, -750);
 };
 
 const fbxLoadFunc = (modelName, animationName, ...pos) => {
