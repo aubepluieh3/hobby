@@ -1,0 +1,23 @@
+{
+  "name": "hobby",
+  "version": "1.0.0",
+  "description": "22.11.29 ~",
+  "main": "hobby.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aubepluieh3/hobby.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aubepluieh3/hobby/issues"
+  },
+  "homepage": "https://soo.github.io//hobby",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
